@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1539761675506" clover="3.2.0">
+  <project timestamp="1539761675507" name="All files">
+    <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2" elements="10" coveredelements="4" complexity="0" loc="5" ncloc="5" packages="1" files="2" classes="2">
+      <file name="HelloWorld.vue" path="C:\Users\chris\Desktop\Workspace\unit-test\src\components\HelloWorld.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="90" count="0" type="stmt"/>
+      </file>
+      <file name="RippleCounter.vue" path="C:\Users\chris\Desktop\Workspace\unit-test\src\components\RippleCounter.vue">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
