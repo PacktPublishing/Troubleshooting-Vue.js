@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complex Code</title>
+        <style>
+        button {width:100px; font-size:14pt;}
+        p { font-size: 30px; }
+        </style>
+    </head>
+    <body>
+        <br>
+        <div style="text-align: center">
+            <button onclick="items.prev().getFruit()">Prev</button>
+            <button onclick="items.next()">Next</button>
+            <br>
+            <p id="result"></p>
+        </div>
+
+        <script>
+        var target = document.getElementById("result");
+        var items = {
+            fruits : ["Apple","Banana","Cherry","Date","Egg Fruit"],
+            index : 0,
+            next : function () {
+                // if(this.index < this.fruits.length-1){
+                //     this.index++;
+                // }else{
+                //     this.index = 0;
+                // }
+
+                this.index < this.fruits.length-1 ? this.index++ : this.index = 0;
+
+                this.getFruit();
+                //return this;
+            },
+            prev : function () {
+                if(this.index > 0){
+                    this.index--;
+                }else{
+                    this.index = this.fruits.length-1;
+                }
+                return this;
+            },            
+            getFruit : function(){
+                var fruit = this.fruits[this.index];
+                target.innerHTML = fruit;
+            }
+        }
+
+    
+        </script>
+
+    </body>
+</html>
