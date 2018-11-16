@@ -1,0 +1,25 @@
+
+<script>
+
+//Base cases
+let n4 = "2+2";
+let n5 = "2+3";
+let n6 = "3+3";
+
+let n0 = 6;
+function f(n){
+    if(n==4)        return n4;
+    else if(n==5)   return n5;
+    else if(n==6)   return n6;
+    else if(n>6)    return f(n-3) + "+3";
+}
+
+function g(n){
+    if(n==4)        return 2+2;
+    else if(n==5)   return 2+3;
+    else if(n==6)   return 3+3;
+    else if(n>6)    return g(n-3) + 3;
+}
+
+
+</script>
