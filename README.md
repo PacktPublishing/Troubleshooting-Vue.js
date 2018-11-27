@@ -25,18 +25,18 @@ Troubleshooting is a process of trial and error—in some cases, you may need to
 - Correct common routing issues
 
 # Requirements
-A good understanding of Web development (HTML, CSS, JavaScript) and a basic knowledge of Vue .js frameworks, the Object-Oriented Programming (OOP) paradigm, and Model-View-Controller (MVC) or the Model-View-View-Model (MVVM) architecture is expected.
+A good understanding of Web development (HTML, CSS, JavaScript) and a basic knowledge of Vue.js frameworks, the Object-Oriented Programming (OOP) paradigm, and Model-View-Controller (MVC) or the Model-View-View-Model (MVVM) architecture is expected.
 
 # Installation Instructions
-The source files do not include the <b>node_modules</b>.  Once a project is created using the Vue CLI, the node_modules will be created.
+The source files do not include the <b>node_modules</b>.  Once a project is created using the Vue CLI, the <b>node_modules</b> will be created.
 
-Vue CLI 2.x
+Using the Vue CLI 2.x to create a Vue project
 <pre>
 vue init webpack TroubleshootVue
 vue init webpack unit-test
 </pre>
 
-Vue CLI 3.x
+Using the Vue CLI 3.x to create a Vue project
 <pre>
 vue create TroubleshootVue
 vue create unit-test
