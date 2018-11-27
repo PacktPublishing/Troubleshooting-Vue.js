@@ -44,7 +44,7 @@ vue create unit-test
 
 After a project is created, swap the "<b>src</b>" folder/content with the "<b>src</b>" folder/content from each section.
 
-Except for <b>Section 1.1</b> and <b>Section 1.2</b>, each section has a <b>Section x.y.Start</b> and <b>Section x.y.End</b> folder (where x = section number, y = subsection number.  Example:  <b>Section 1.3.Start</b>, <b>Section 1.3.End</b>).  The <b>Section x.y.Start</b> contains all the files in the state before the video starts and <b>Section x.y.End</b> contains all the files in the state after the video ends.
+Except for <b>Section 1.1</b> and <b>Section 1.2</b>, each section has a <b>Section x.y.Start</b> folder and <b>Section x.y.End</b> folder (where x = section number, y = subsection number.  Example:  <b>Section 1.3.Start</b>, <b>Section 1.3.End</b>).  The <b>Section x.y.Start</b> contains all the files in the state before the video starts and <b>Section x.y.End</b> contains all the files in the state after the video ends.
 
 # Minimum Hardware Requirements
 For successful completion of this course, students will require the computer systems with at least the
