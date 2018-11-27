@@ -50,7 +50,7 @@ Except for <b>Section 1.1</b> and <b>Section 1.2</b>, each section has a <b>Sect
 For successful completion of this course, students will require the computer systems with at least the
 following:
 - OS: Any (Windows 7, 8, 10 or Mac OS or Linux distro)
-- Processor: 1 GHz Processor of faster
+- Processor: 1 GHz Processor or faster
 - Memory: 1 GB RAM
 - Storage: ~10 GB
 
@@ -58,7 +58,7 @@ following:
 For an optimal experience with hands-on labs and other practical activities, we recommend the following
 configuration:
 - OS: Any (Windows 7, 8, 10 or Mac OS or Linux distro)
-- Processor: 1 GHz Processor of faster
+- Processor: 1.6 GHz Processor or faster
 - Memory: 2 GB RAM
 - Storage: ~20 GB
 
